@@ -1,0 +1,15 @@
+appId: com.agentmonitor.dashboard
+productName: AgentMonitor
+directories:
+  output: release
+
+win:
+  target: portable
+
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - node_modules/**/*
+
+extraMetadata:
+  main: dist-electron/main.js
